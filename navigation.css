@@ -9,6 +9,7 @@ div.wpl_navigation {
     overflow-x: hidden;
     padding: 10px 10px;
     overflow-y: scroll;
+	white-space: nowrap;
   }
   
   a.wpl_navigation {
