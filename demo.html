@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WebPaperLayout</title>
+	<link media="print" />
+	<link rel="stylesheet" href="documentTemplate_A4.css">
+	<link rel="stylesheet" href="pageLayout.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+
+<script src="page.js"></script>
+<script src="navigation.js"></script>
+<body>
+
+<div class="wpl_navigation">
+</div>
+
+<div class="main">
+<document-page 
+    title="WebPaperLayout" 
+    subtitle="WebPaperLayout Demo" 
+    footer="christian-marty.ch/WebPaperLayout"
+    link="https://www.christian-marty.ch/WebPaperLayout/demo.html"
+>
+    <h1>A WebPaperLayout Document</h1>
+    <p>This is an example of a WebPaperLayout document.</p>
+</document-page>
+
+<document-page>
+    <h2>This is a h2 header</h2>
+</document-page>
+
+<document-page>
+    <h2>This is an other h2 header</h2>
+    <p>Some content</p>
+    <h3>A h3 header</h3>
+    <p>More content</p>
+    <h2>More h2 headers</h2>
+</document-page>
+
+<document-page>
+    <h2>Last Page</h2>
+    <p>Last page content</p>
+</document-page>
+
+</body>
+</html>
